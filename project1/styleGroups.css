@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+
+    width: 100%;
+    height: auto;
+    background-color:   rgb(147, 138, 138);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+    border-radius: 15PX;
+    box-shadow: 0PX 5PX 5PX  rgb(147, 138, 138);
+    padding-bottom: 50px;
+       
+}
+
+section{
+    /*width: 500px;*/
+    margin: 50px auto;
+    background-color:  rgb(147, 138, 138);
+    min-width: 300px;
+    max-width: 50%;
+ 
+
+    
+}
+
+.espaco, .espaco2, .espaco3, .espaco4{
+    padding-bottom: 50px;
+    padding-top: 30px;
+   
+}
+
+
+
+.face, .face2, .face3, .face4{
+    width: 300px;
+    height: 300px;
+    perspective: 700px;
+   
+       
+}
+.frente, .frente2, .frente3, .frente4, .verso{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    transition: 700ms;
+      
+}
+
+
+body{
+    background-color: rgb(147, 138, 138);
+}
+.verso{
+    background-color: black;
+    transform: rotateY(-180deg);
+    backface-visibility: hidden;
+    
+   
+}
+
+.face:hover .front{
+    transform: rotateY(-180deg);
+    z-index: 0;
+}
+
+.face:hover .verso{
+    transform: rotateY(0);
+    z-index:1;
+}
+
+
+.face2:hover .front{
+    transform: rotateY(-180deg);
+    z-index: 0;
+}
+
+.face2:hover .verso{
+    transform: rotateY(0);
+    z-index:1;
+}
+
+.face3:hover .front{
+    transform: rotateY(-180deg);
+    z-index: 0;
+}
+
+.face3:hover .verso{
+    transform: rotateY(0);
+    z-index:1;
+}
+
+.face4:hover .front{
+    transform: rotateY(-180deg);
+    z-index: 0;
+}
+
+.face4:hover .verso{
+    transform: rotateY(0);
+    z-index:1;
+}
+
+h3{
+   text-align: center;
+   padding-bottom: 10px;
+   padding-top: 0px;
+   font-size: 30px;
+}
+
+.frente{
+    background-image: url(img/img-groups/front2.jpg);
+    z-index: 1;
+    background-position: CENTER;
+}
+
+.frente2{
+
+    background-image: url(img/img-groups/back4.jpg);
+    z-index: 1;
+    background-position: CENTER;
+    
+}
+
+.frente3{
+
+    background-image: url(img/img-groups/gestao3.jpg);
+    z-index: 1;
+    background-position: CENTER;
+    padding-top: 50%;
+       
+}
+
+.frente4{
+
+    background-image: url(img/img-groups/QA3.jpg);
+    z-index: 1;
+    background-position: CENTER;
+    padding-top: 50%;
+       
+
+}
+
+.verso ul li{
+    color:fuchsia;
+    align-items: center;
+    font-size: 20px;
+     
+}
+
+.navigation ul{
+    display: flex;
+    align-items: center;
+    gap: 100px;   
+    height: 50px;
+    bottom: 0px;
+    font-family: 'Marienda';
+    list-style-type: none;
+
+}
+
+header nav ul li:hover{
+    background-color:  fuchsia;
+    font-size: 30px;
+    color: rgb(138, 36, 57);
+    
+}
+
+header nav ul li a{
+
+    text-decoration: none;
+    color: black;
+     
+}
+
+footer{
+    height: 50px;
+}
+

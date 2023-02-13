@@ -1,0 +1,87 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Raleway:ital,wght@0,100;0,200;0,700;1,100;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Great+Vibes&family=Raleway:ital,wght@0,100;0,200;0,700;1,100;1,200&display=swap');
+body{
+    background-color: black;
+}
+
+header{
+
+    height: 150px;
+    background-image: linear-gradient(to bottom, white, grey);
+}
+.container{
+
+    width: 100%;
+    height: auto;
+    background-color: rgb(221, 182, 182);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+    border-radius: 15PX;
+    box-shadow: 0PX 5PX 5PX rgb(138, 132, 132);
+       
+}
+
+.box1{
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    margin: 20px;
+    box-sizing: border-box;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 15PX;
+    font-family: 'Dancing Script', sans-serif;
+   
+
+}
+
+.box2{
+    width: 500px;
+    height: 300px;
+    margin: 20px;
+    box-sizing: border-box;
+    font-size: 50px;
+    text-align: center;
+    background-image: url(img/mulhersCODE.jpg);
+    background-position: CENTER;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 15PX;
+    
+
+}
+
+main{
+    padding-top: 300px;
+    background-image: url(img/MULHERUP.jpg);
+    min-width: 300px;
+    max-width: 100%;
+    height: 1000px;
+    background-position: CENTER TOP;
+    
+
+}
+
+
+footer{
+    height: 30px;
+    background-color: grey;
+}
+
+h6{
+    text-align: center;
+    padding-bottom: 2px;
+      
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,148 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Great+Vibes&family=Merienda:wght@300;400;900&family=Raleway:ital,wght@0,100;0,200;0,700;1,100;1,200&display=swap');
+
+
+
+button{
+    border: 0px;
+    padding: 10px;
+    padding-bottom: 10px;
+    outline: 0;
+    background-color: rgb(222, 123, 123);
+    color: #fff;
+    border-radius: 100px;
+    font-weight: bold;
+    transition: all ease 0.3s;
+}
+
+button:hover{
+    background-color: rgb(240, 12, 12);
+}
+.center {
+    text-align: center;
+}
+
+
+
+
+h2{
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Marienda';
+
+
+       
+}
+
+.lineInput{
+
+    /*display: inline-block;*/
+    padding-right: 60px;
+    padding-left: 60px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+   
+    
+}
+input{
+    width: 300px;
+}
+.card{
+    align-items: center;
+
+
+   
+}
+
+.botao{
+    padding-bottom: 50px;
+}
+
+form{
+    padding-bottom: 30px;
+
+}
+
+
+.shoes{
+    background-image: url(img/batom4.png);
+    width: 30px;
+    height: 30px;
+    
+   
+}
+.shoes1, .titulo, .shoes{
+
+    display: inline-block;
+    padding-right: 30px;
+    
+
+}
+
+.navigation ul{
+    display: flex;
+    align-items: center;
+    gap: 100px;   
+    background-image: linear-gradient(to bottom, grey, #DEDEDE);
+    height: 50px;
+    bottom: 0px;
+    font-family: 'Marienda';
+    list-style-type: none;
+
+}
+
+.caixa{
+
+    padding-top: 50px;
+    
+    align-items: center;
+   
+
+  
+}
+
+header nav ul li:hover{
+    background-color: white;
+    font-size: 30px;
+    color: black;
+    
+    
+}
+
+header nav ul li a{
+
+    text-decoration: none;
+    color: black;
+     
+}
+
+table td img{
+    width: 30px;
+   
+}
+table th{
+    text-align: left;
+    text-decoration: none;
+}
+
+
+
+footer{
+
+    background-image: linear-gradient(to top, rgb(176, 168, 168), #DEDEDE);
+    height: 20px;
+    bottom: 0px;
+    display: flex;
+   
+
+}
+
+
+
+
+
+
+
+
+
+
